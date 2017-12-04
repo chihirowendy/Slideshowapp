@@ -99,7 +99,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tY1-xI-TeR">
-                                <rect key="frame" x="172" y="480" width="31" height="30"/>
+                                <rect key="frame" x="172" y="543.5" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="return:" destination="5C4-9z-BzP" eventType="touchUpInside" id="pJR-wP-N9X"/>
@@ -107,7 +107,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cad-XR-mZs">
-                                <rect key="frame" x="27.5" y="70" width="320" height="400"/>
+                                <rect key="frame" x="27.5" y="133.5" width="320" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="Vkn-JR-vYO"/>
                                     <constraint firstAttribute="height" constant="400" id="zio-s3-v9V"/>
@@ -117,7 +117,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cad-XR-mZs" firstAttribute="centerY" secondItem="pqi-Ha-6BI" secondAttribute="centerY" id="RCw-lH-T7K"/>
-                            <constraint firstItem="cad-XR-mZs" firstAttribute="top" secondItem="QCX-lH-Rk1" secondAttribute="bottom" constant="50" id="Tdk-YM-jV9"/>
                             <constraint firstItem="tY1-xI-TeR" firstAttribute="centerX" secondItem="pqi-Ha-6BI" secondAttribute="centerX" id="UXv-yg-LJR"/>
                             <constraint firstItem="cad-XR-mZs" firstAttribute="centerX" secondItem="pqi-Ha-6BI" secondAttribute="centerX" id="mhT-JR-oFw"/>
                             <constraint firstItem="tY1-xI-TeR" firstAttribute="top" secondItem="cad-XR-mZs" secondAttribute="bottom" constant="10" id="ycq-Ac-yMx"/>
